@@ -71,15 +71,3 @@ func (ch *ConsistentHasher) FindNodeFor(item string) string {
 	return ch.nodes[itemPos]
 
 }
-
-func main() {
-	ch := NewConsistentHasher(1024)
-	nodes := []string{"lubna", "luboo", "booboo", "honeybee", "sugar"}
-	for _, node := range nodes {
-		if err := ch.AddNode(node); err != nil {
-			fmt.Println(err)
-		}
-	}
-
-	fmt.Println(ch.FindNodeFor("sachin"))
-}
