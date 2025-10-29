@@ -39,7 +39,7 @@ var tikzTemplate = template.Must(template.New("t").Parse(`
 func makeNodesCircleTikz() {
 	ch := NewConsistentHasher(1024 * 1024)
 
-	nodes := []string{"lubna", "luboo", "booboo", "honeybee", "sugar", "kashmiri-apple", "lubooboo", "honey"}
+	nodes := []string{"A", "B", "C", "D"}
 	for _, node := range nodes {
 		if err := ch.AddNode(node); err != nil {
 			panic(err)

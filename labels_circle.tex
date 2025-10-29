@@ -12,12 +12,12 @@
   \draw[thick] (0,0) circle (\R);
 
   % Angles array
-  \def\angles#1{\ifcase#1 15\or 141\or 178\or 198\or 322\or 338\or 346\or 354\fi}
+  \def\angles#1{\ifcase#1 68\or 131\or 263\or 293\fi}
 
   % Labels array
-  \def\labels#1{\ifcase#1 lubna\or luboo\or booboo\or honeybee\or sugar\or kashmiri-apple\or lubooboo\or honey\fi}
+  \def\labels#1{\ifcase#1 A\or B\or C\or D\fi}
 
-  \foreach \i in {0,...,7}{
+  \foreach \i in {0,...,3}{
     \pgfmathsetmacro{\ang}{\angles{\i}}
     \fill[Oc] (\ang:\R) circle (1.1pt);
     \node[red, font=\small, anchor=south east] at (\ang:\R) {\labels{\i}};

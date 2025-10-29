@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 OCT 2025 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 OCT 2025 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,7 +494,7 @@ Missing character: There is no a in font nullfont!
 
 
 Non-PDF special ignored!
-<special> papersize=223.72751pt,207.13663pt
+<special> papersize=207.13663pt,207.13663pt
 {/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updm
 ap/pdftex.map}] (./labels_circle.aux)
  ***********
@@ -503,16 +503,16 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12698 strings out of 473190
- 272572 string characters out of 5704335
- 632928 words of memory out of 5000000
- 35756 multiletter control sequences out of 15000+600000
+ 12694 strings out of 473190
+ 272500 string characters out of 5704335
+ 630928 words of memory out of 5000000
+ 35752 multiletter control sequences out of 15000+600000
  559136 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,7n,121p,415b,708s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr9.pfb>
-Output written on labels_circle.pdf (1 page, 14827 bytes).
+Output written on labels_circle.pdf (1 page, 10804 bytes).
 PDF statistics:
  16 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream
